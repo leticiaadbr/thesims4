@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Montserrat:wght@300;400;800&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Relacionando o CSS ao arquivo HTML -->
+    <link rel="stylesheet" href="styles/style.css" media="all">
+    <link rel="stylesheet" href="styles/mediaquery.css">
+</head>
+
+<body>
+    <header>
+        <nav style="background-color: rgb(239, 248, 239)">
+            <div id="nav">
+                <div class="title-icon-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Sims_4_logo.svg/1280px-Sims_4_logo.svg.png" width="60px" height="20px">
+                    <h1 class="logo">The sims 4</h1>
+                </div>
+                <div class="menu-icon">&#9776;</div>
+                <ul class="nav-list">
+                    <li class="item-lista" id="início"><a href="index.html">início</a></li>
+                    <li class="item-lista" id="trajetoria"><a href="trajetoria.html">trajetória</a></li>
+                    <li class="item-lista" id="voltar"><a href="pacotes.html">pacotes de expansão</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <form action=" " method="">
+        <!--entre as aspas vai a pagina que esse formulário vai direcionar-->
+
+            <label for="">e-mail</label>
+            <!--required pra não deixar enviar em branco-->
+            <input type="email" placeholder="email" name="email"  id="email" required="">
+            <br>
+            </br>
+            <label for="">senha</label>
+            <input type="password">
+            <br>
+            </br>
+            <label for="">data de nascimento</label>
+            <input type="date">
+            <button class="btlog">cadastro</button>
+            <button class="btlog">login</button>
+           
+    </form>
+
+</body>

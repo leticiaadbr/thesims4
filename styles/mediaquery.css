@@ -1,0 +1,40 @@
+/* Estilos para dispositivos com tela menor que 600px (formato celular) */
+@media (max-width: 771px) {
+    .div2 {
+        flex-direction: column;
+    }
+
+    .div2 p {
+        margin-right: 0;
+        margin-bottom: 20px; 
+    }
+}
+
+@media (max-width: 771px) {
+    .div3 {
+        flex-direction: column;
+    }
+
+    .div3 p {
+        margin-right: 0; 
+        margin-bottom: 20px;
+ 
+    }
+}
+
+/* Estilos para dispositivos com tela menor que 600px (formato celular) */
+@media (max-width: 771px) {
+    #sobre, .div2 p, .div3 p {
+        font-size: 16px; 
+        width: 100%; 
+        word-spacing: normal; 
+    }
+}
+
+@media (max-width: 771px) {
+    #título {
+        font-size: 26px; 
+        width: 100%; 
+        word-spacing: normal; 
+    }
+}
